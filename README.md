@@ -27,7 +27,7 @@ Source repository for our paper entilted "[Promoting Saliency From Depth: Deep U
 ------
 
 
-### Our DSU Implementation
+## Our DSU Implementation
 
 1. Modify the path of dataset in ```python DSU_test.py``` and ```python DSU_train.py```.
 2. **Inference stage (Test your own dataset)**: ```python DSU_test.py```; Using Pre-trained Model in ```./ckpt``` ([Baidu Cloud (Passworde: vs85)](https://pan.baidu.com/s/1GbHR4V3jzqh1SGaQopIJGw) or [Google Drive](https://drive.google.com/file/d/1osp-8nEx_cAY9mjhaC9OJRTIQSP0irdr/view?usp=sharing)).  
@@ -35,7 +35,7 @@ Source repository for our paper entilted "[Promoting Saliency From Depth: Deep U
 4. Check the log file: ```cat ./result.txt```
 
 
-### Saliency Results
+## Saliency Results
 
 Our deep unsupervised saliency results can be approached in [Baidu Cloud (Passworde: m10a)](https://pan.baidu.com/s/1oPJjR2apBvnbUkmNokr3CQ) or [Google Drive](https://drive.google.com/file/d/1VwvTZFwRUtoEdymv5RzxywWuBmn4z7Xx/view?usp=sharing).
 If you want to use our JSM to test on your own dataset, you can load our pretrained ckpt and run ```python demo_test.py``` directly.
