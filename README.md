@@ -30,15 +30,15 @@ Source repository for our paper entilted "[Promoting Saliency From Depth: Deep U
 ## Our DSU Implementation
 
 1. Modify the path of dataset in ```python DSU_test.py``` and ```python DSU_train.py```.
-2. **Inference stage (Test your own dataset)**: ```python DSU_test.py```; Using Pre-trained Model in ```./ckpt``` ([Baidu Cloud (Passworde: vs85)](https://pan.baidu.com/s/1GbHR4V3jzqh1SGaQopIJGw) or [Google Drive](https://drive.google.com/file/d/1osp-8nEx_cAY9mjhaC9OJRTIQSP0irdr/view?usp=sharing)).  
+2. **Inference stage (Test your own dataset)**: ```python DSU_test.py```; Using Pre-trained Model in ```./ckpt``` ([Baidu Cloud (Passworde: w5bg)](https://pan.baidu.com/s/1I8B-APvrGVuEI9xePzIpkQ) or [Google Drive](https://drive.google.com/file/d/1KchAFhUzgTF3aX8wFEbMiTbKH_BtKlcN/view?usp=sharing)).  
 3. **Training stage**: ```CUDA_VISIBLE_DEVICES=0 python DSU_train.py```                             
 4. Check the log file: ```cat ./result.txt```
 
 
 ## Saliency Results
 
-Our deep unsupervised saliency results can be approached in [Baidu Cloud (Passworde: m10a)](https://pan.baidu.com/s/1oPJjR2apBvnbUkmNokr3CQ) or [Google Drive](https://drive.google.com/file/d/1VwvTZFwRUtoEdymv5RzxywWuBmn4z7Xx/view?usp=sharing).
-If you want to use our JSM to test on your own dataset, you can load our pretrained ckpt and run ```python demo_test.py``` directly.
+Our deep unsupervised saliency results can be approached in [Baidu Cloud (Passworde: ws1k)](https://pan.baidu.com/s/14b1FwcCHqXF2dpgn08_x9g) or [Google Drive](https://drive.google.com/file/d/1kjtd8_7UC7IqtgcOFT41yOJt4NhoVcBh/view?usp=sharing).
+If you want to use our DSU to test on your own dataset, you can load our pretrained ckpt and run ```python DSU_test.py``` directly.
 
 
 
