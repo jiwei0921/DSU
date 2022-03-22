@@ -1,13 +1,13 @@
 # DenseCRF Installation
 This is a ready-to-use **python DenseCRF** file for refining saliency maps using dense CRF, 
-which is used in the NeurIPS 2021 paper "**Joint Semantic Mining for Weakly Supervised RGB-D Salient Object Detection**".
+which is used in the ICLR 2022 paper "**Promoting Saliency From Depth: Deep Unsupervised RGB-D Saliency Detection**".
 If you want to know more about CRF, you can refer to [here](http://graphics.stanford.edu/projects/drf/).    
 
    
 ## Dependencies
 **Test successful on 2080Ti / RTX 3090 / Tesla P40 GPU**
-1. Initial conda environment: ```conda create -n JSM python=3.7```.
-2. ```conda activate JSM```
+1. Initial conda environment: ```conda create -n DSU python=3.7```.
+2. ```conda activate DSU```
 3. Install ***pydensecrf***: ```pip install git+https://github.com/lucasb-eyer/pydensecrf.git```
 4. ```pip install --upgrade pip```
 5. Install ***opencv***: ```pip install opencv-python```
