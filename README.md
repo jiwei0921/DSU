@@ -47,7 +47,7 @@ If you want to use our DSU to test on your own dataset, you can load our pretrai
 @inproceedings{
 ji2022promoting,
 title={Promoting Saliency From Depth: Deep Unsupervised {RGB}-D Saliency Detection},
-author={Wei Ji and Jingjing Li and Qi Bi and chuan guo and Jie Liu and Li Cheng},
+author={Wei Ji and Jingjing Li and Qi Bi and Chuan Guo and Jie Liu and Li Cheng},
 booktitle={International Conference on Learning Representations},
 year={2022}
 }
